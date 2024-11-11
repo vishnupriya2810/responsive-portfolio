@@ -1,0 +1,224 @@
+.link:hover{
+    color: rgb(14, 178, 219);
+}
+.link{
+    color: #e4e7ec;
+}
+#name{
+    /* color: wheat; */
+    animation-name: nameslide;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+
+}
+.r4{
+    width: 100%;
+    height: auto;
+}
+.r5{
+    padding-top: 85px;
+    background-image: url(../Images/back\ port.avif);
+    position: relative;top: 200px
+}
+
+@keyframes nameslide{
+    from{
+        transform: translate(-25%);
+        color: rgb(27, 121, 198);
+
+    }
+    to{
+        transform: translate(0%);
+        color: rgb(204, 51, 51);
+
+    }
+
+}
+#role{
+    /* color: wheat; */
+    animation-name: roleslide;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+}
+@keyframes roleslide{
+    from{
+        transform: translate(25%);
+        color: rgb(204, 51, 51);
+
+    }
+    to{
+        transform: translate(0%);
+        color: rgb(27, 121, 198);
+
+    }
+
+}
+.r3{
+    height: 500px;
+
+position: relative;top: 80px;left: 30px;
+}
+.app1{
+    
+    width: 180px;
+    position: relative;
+    top: 80px;left: 300px;
+    transition-timing-function: ease-out;
+    transition: 2s;
+}
+.app2{
+    width: 140px;
+    position: relative;
+    top: 170px;left: 300px;
+    transition-timing-function: ease-out;
+    transition: 2s;
+}
+.app3{
+    width: 180px;
+    position: relative;
+    top: 260px;left: -30px;
+    transition-timing-function: ease-out;
+    transition: 2s;
+}
+#app:hover{
+        transform: rotate(120deg);
+        transition: 2s;  
+}
+#h3{
+    position: relative;
+    top: -300px;
+    font-style: italic;
+    font-size: 40px;
+    
+}
+#i2{
+    
+    height: 600px;
+}
+#d1{
+    position: relative;
+    top: 60px;
+   
+}
+#d2{
+    animation-name: tag;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    color:  rgb(230, 167, 41);
+}
+@keyframes tag{
+    from{
+       
+        color: rgb(230, 167, 41);
+
+    }
+    to{
+        
+        color: rgb(99, 163, 215);
+
+    }
+
+}
+#d3{
+    animation-name: tag1;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    color: rgb(99, 163, 215);
+}
+@keyframes tag1{
+    from{
+        color: rgb(99, 163, 215);
+       
+       
+
+    }
+    to{
+        
+        color: rgb(230, 167, 41); 
+
+    }
+
+}
+
+#d4{
+    animation-name: tag2;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    color: rgb(193, 116, 60);
+}
+@keyframes tag2{
+    from{
+        color: rgb(193, 116, 60);
+       
+       
+
+    }
+    to{
+        
+       color: springgreen;
+    }
+
+}
+#d5{
+    animation-name: tag3;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    color: springgreen;
+}
+@keyframes tag3{
+    from{
+        color: springgreen;
+       
+       
+
+    }
+    to{
+        
+        color: rgb(193, 116, 60);
+    }
+
+}
+#b1{
+    background-color: rgb(240, 166, 8);border-color: rgb(240, 166, 8) ;border-radius: 5px;
+}
+#b2{
+    background-color: rgb(240, 166, 8); border-color: rgb(240, 166, 8) ;border-radius: 5px;  
+}
+@media only screen and (max-width: 800px){
+    .r1{
+        width: 100%;
+        height: auto;
+    }
+    .r2{
+        width: 100%;
+        height: auto;
+    }
+    .app1, .app2, .app3{
+        position: unset;
+    }
+    .r3{
+        position: unset;
+        height: auto;
+    }
+    .r4{
+        width: 100%;
+        height: auto;
+    }
+    .r5{
+       
+        
+        width: 100%;
+        height: auto;
+    }
+    .r6{
+        visibility: hidden;
+    }
+}
